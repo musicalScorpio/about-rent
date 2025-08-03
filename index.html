@@ -9,49 +9,60 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background: linear-gradient(to right, #f9f9f9, #e9f2ff);
+      color: #333;
       text-align: center;
-      color: #f4f4f4;
     }
+
     .container {
-      padding: 60px 20px;
+      padding: 80px 20px;
     }
+
     img.logo {
-      width: 200px;
+      width: 180px;
       margin-bottom: 30px;
-      filter: drop-shadow(0 0 20px #4CAF50);
+      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
     }
+
     h1 {
       font-size: 2.8rem;
-      color: #66fcf1;
-      margin-bottom: 0.5em;
+      color: #2c3e50;
+      margin-bottom: 0.3em;
     }
+
     p {
       font-size: 1.2rem;
-      max-width: 640px;
+      max-width: 700px;
       margin: 0 auto 2em;
+      color: #555;
     }
+
+    .highlight {
+      color: #0066cc;
+      font-weight: 600;
+    }
+
     a.button {
       display: inline-block;
-      padding: 14px 28px;
-      background-color: #1f2833;
+      padding: 14px 32px;
+      background-color: #0066cc;
       color: white;
       font-size: 1.1rem;
       text-decoration: none;
       border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
       transition: background-color 0.3s ease, transform 0.2s ease;
     }
+
     a.button:hover {
-      background-color: #45a29e;
+      background-color: #004999;
       transform: scale(1.05);
     }
+
     .footer {
-      position: fixed;
-      bottom: 10px;
-      width: 100%;
+      margin-top: 80px;
       font-size: 0.9rem;
-      color: #aaa;
+      color: #777;
     }
   </style>
 </head>
@@ -59,8 +70,8 @@
   <div class="container">
     <img src="Rentalize.png" alt="Rentalyze Logo" class="logo"/>
     <h1>Rentalyze</h1>
-    <p><strong>AI-Assisted Rental Income Portfolio Management</strong></p>
-    <p>Explore your next rental investment with confidence. Analyze cash flow, risk, and return on investment in just a few clicks.</p>
+    <p><span class="highlight">AI-Assisted Rental Income Portfolio Management</span></p>
+    <p>Explore your next rental investment with confidence.<br> Analyze cash flow, risk, and ROI in just a few clicks.</p>
     <a class="button" href="https://rentalyze.streamlit.app" target="_blank">Launch App</a>
   </div>
   <div class="footer">© 2025 Sam Mukherjee · Powered by AI & Data</div>
